@@ -1,6 +1,11 @@
 {
+  "homepage": "https://AkashKumar2011.github.io/Razorpay_Clone",
   "scripts": {
-    "start": "vite"
+    "start": "vite",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
@@ -9,6 +14,7 @@
     "vite": "^4.5.3"
   },
   "dependencies": {
-    "feather": "^0.0.5"
+    "feather": "^0.0.5",
+    "gh-pages": "^6.1.1"
   }
 }
